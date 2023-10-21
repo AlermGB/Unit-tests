@@ -38,7 +38,7 @@ class VehicleTest {
         assertEquals(motorcycle.getSpeed(), 75);
     }
 
-    @Test //  - проверка, что в режиме парковки поле testDrive() машина останавливается (speed = 0)
+    @Test //  - проверка, что в режиме парковки после testDrive() машина останавливается (speed = 0)
     public void isCarStopped() {
         Car car = new Car("Ford", "Focus", 2003);
         car.testDrive();
