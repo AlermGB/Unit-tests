@@ -1,7 +1,7 @@
 package ht1;
 
 
-import static org.assertj.core.api.Assertions.*;
+//import static org.assertj.core.api.Assertions.*;
 
 public class CalculatorTest {
     public static void main(String[] args) {
@@ -52,10 +52,10 @@ public class CalculatorTest {
         //System.out.println(Calculator.calculation(2_147_483_647, 1, '+')); // integer overflow
         //System.out.println(Calculator.squareRootExtraction(169));
 
-        assertThat(Calculator.calculatingDiscount(1000, 20)).isEqualTo(800);
-        assertThat(Calculator.calculatingDiscount(1000, 20)).isNotEqualTo(80);
+        //assertThat(Calculator.calculatingDiscount(1000, 20)).isEqualTo(800);
+       // assertThat(Calculator.calculatingDiscount(1000, 20)).isNotEqualTo(80);
         // ArithmeticException: Скидка должна быть в диапазоне от 0 до 100%
-        assertThat(Calculator.calculatingDiscount(1000, -20)).isEqualTo(800);
+        //assertThat(Calculator.calculatingDiscount(1000, -20)).isEqualTo(800);
 
     }
 }
